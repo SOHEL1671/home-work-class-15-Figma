@@ -1,0 +1,123 @@
+/* common css start */
+*{
+margin: 0;
+outline: 0;
+padding: 0;
+box-sizing: border-box;
+}
+:root{
+    --primary-font:'Poppins', sans-serif;
+    --heading-font: 'PT Sans', sans-serif;
+}
+:root{
+    --primary-color:#353535;
+    --btn-color:#FFCC00;
+    --background-color:#F4F3F3;
+    --gradient-color:(130deg, #FC0 0%, #FAFFCB 100%, #FAFFCB 100%);
+}
+body{
+    font-family:var(--primary-font);
+}
+h1,h2{
+    font-family: var(--heading-font);
+}
+ul,li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.container{
+    width: 1110px ;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.img{
+    max-width: 100%;
+    display: block;
+}
+button, a{
+    font-weight: 500;
+}
+a{
+    color: var(--primary-color);
+}
+.btn{
+    color:var(--primary-color);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 180%;
+    padding: 17px 0;
+    border: 1px solid var(--primary-color);
+    transition: 0.5s;
+    border-radius: 20px;
+    text-transform: capitalize;
+    text-align: center;
+    background: none;
+}
+.btn-lg{
+    width: 209px;
+}
+.btn-sm{
+    width: 171px;
+}
+.btn:hover{
+    cursor: pointer;
+    background:var(--btn-color);
+    color:var(--background-color);
+    border-color:var(--btn-color);
+}
+.btn i{
+    margin-left: 11px;
+}
+/* common css end */
+/* nav section start */
+#nav .row{
+    align-items:center;
+    justify-content: space-between;
+    padding-top: 18px;
+}
+#nav ul li{
+    color:var(--primary-color);
+    font-size: 15px;
+    line-height: 200%;
+    padding-right: 22px;
+}
+/* nav section end */
+/* banner section start */
+#banner .banner-btn .btn-lg{
+    margin-right: 40px;
+}
+#banner .banner-info{
+    margin-top: 119px;
+}
+#banner .banner-info h1{
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+#banner .banner-info p{
+    margin-bottom: 66px;
+}
+#banner .banner-info .row{
+    margin-top: 77px;
+}
+#banner .banner-info .row li {
+    width: 40px;
+    height: 40px;
+    background-color: var(--background-color);
+    border-radius: 50%;
+    text-align: center;
+    padding: 10px;
+}
+#banner .container .mouse{
+    text-align: center;
+    cursor: pointer;
+}
+#banner .row{
+    justify-content: space-between;
+}
+/* banner section end */
