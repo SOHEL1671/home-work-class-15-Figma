@@ -87,6 +87,10 @@ a{
     line-height: 200%;
     padding-right: 22px;
 }
+#nav ul li a::after{
+    content:;
+
+}
 /* nav section end */
 /* banner section start */
 #banner .banner-btn .btn-lg{
@@ -113,9 +117,14 @@ a{
     text-align: center;
     padding: 10px;
 }
+#banner .container{
+    position: relative;
+}
 #banner .container .mouse{
     text-align: center;
     cursor: pointer;
+    position: absolute;
+    padding-left: 600px;
 }
 #banner .row{
     justify-content: space-between;
